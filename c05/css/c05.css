@@ -3,7 +3,7 @@
 body {
 	background-color: #000;
 	font-family: 'Oswald', 'Futura', sans-serif;
-	margin: 0px; 
+	margin: 0px;
 	padding: 0px;}
 
 #page {
@@ -12,7 +12,7 @@ body {
 	/* Responsive page rules at bottom of style sheet */
 
 h1 {
-	background-image: url(../images/kinglogo.png);
+	background-image: url(../img/kinglogo.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
@@ -81,7 +81,7 @@ li {
 .complete {
     background-color: #999;
 	color: #fff;
-	background-image: url("../images/icon-trash.png");
+	background-image: url("../img/icon-trash.png");
 	background-position: center right;
 	background-repeat: no-repeat;
 	text-shadow: 2px 2px 1px #ccc;
@@ -91,19 +91,19 @@ li {
 li a {
 	color: #fff;
 	text-decoration: none;
-	background-image: url("../images/icon-link.png");
+	background-image: url("../img/icon-link.png");
 	background-position: center right;
 	background-repeat: no-repeat;
     padding-right: 36px;}
 
 p {
-	color: #403c3b; 
+	color: #403c3b;
 	background-color: #fff;
 	border-radius: 5px;
 	text-align: center;
 	padding: 10px;
 	margin: 20px auto 20px auto;
-	min-width: 20%; 
+	min-width: 20%;
 	max-width: 80%; }
 
 #scriptResults {
@@ -137,9 +137,9 @@ p {
     		margin: 20px auto 20px auto;
    		}
     }
-	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 		h1{
-			background-image: url(../images/2xkinglogo.png);
+			background-image: url(../img/2xkinglogo.png);
 			background-size: 72px 72px;
 		}
 	}
